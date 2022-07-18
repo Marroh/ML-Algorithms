@@ -1,0 +1,31 @@
+data:
+  bs: 32
+  shuffle: True
+  workers: 4
+  pin: True
+  resize: 512
+
+net:
+  image_size: 512
+  patch_size: 128
+  num_classes: 20
+  dim: 1024
+  depth: 6
+  heads: 16
+  mlp_dim: 2048
+  channels: 3
+  dropout: 0.1
+  emb_dropout: 0.1
+
+train:
+  device: 'cuda:0'
+  epochs: 200
+  lr: 1.0e-3
+  momentum: 0.8
+  gamma: 0.5
+  seed: 42
+
+info:
+  author: 'Ma Hao'
+  affiliation: 'CASIA'
+  data: '2022/4/24'
