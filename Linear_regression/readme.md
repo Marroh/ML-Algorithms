@@ -1,16 +1,16 @@
-## 依赖库
+## Dependencies
 numpy  
 matplotlib
 
-## 运行说明
-保证./Price与linear_regression.py在同一目录下，直接运行即可。 
+## How to run
+Make sure . /Price is in the same directory as linear_regression.py, just open your IDE and run `linear_regression.py` it directly. 
 
-## 输出说明
-###可视化结果
-橙色点为原始样本，蓝色直线为用直线拟合的MSE最小化下的解。  
-###文本输出结果
-梯度下降法迭代步数和误差以`step:xxx, loss:xxx`的形式每10步输出一次。最终分别输出解析法和GD法所预测的线性方程以及2014年南京房价的预测。  
+## Output
+### Visualization image
+The orange points are the original samples, and the blue lines are the solutions under MSE minimization fitted with a straight line.  
+### Print text
+Gradient descent method iteration steps and errors are output as `step:xxx, loss:xxx` once every 10 steps. The final linear equations predicted by the analytical method and GD method and the prediction of the house price in Nanjing in 2014 are output respectively.  
 
-## 超参数
+## Hyperparameters
 lr: 1e-9  
-初始θ: [-1600, 2]
+Initial θ: [-1600, 2]
