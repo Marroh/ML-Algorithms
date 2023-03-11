@@ -1,4 +1,4 @@
-# Algorithms and Principles of AI. Assignment5: MLP
+# MLP
 ## Code structure
 `MLP.py`Contains the hand coding MLP\
 `MLP_torch.py`Contains the MLP implemented with pytorch\
