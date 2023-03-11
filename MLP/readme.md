@@ -9,7 +9,7 @@
 Directly run MLP.py or MLP_torch.py.
 
 ## Explanation of Parameters
-###`class MLP`
+### class MLP
 `lr`:Learning rate, a preferable performance could be achieve with lr in [0.1, 1] in this case.\
 `input dim`:Input dimension, set to 2 in this case.\
 `output dim`:Output dimension, equals to the class number of dataset.\
@@ -22,7 +22,7 @@ Directly run MLP.py or MLP_torch.py.
 use any regularization.\
 `alpha`:The weight of regularization item.
 
-###`class Dataloader`
+### class Dataloader
 `train_input_path`:Path of training input file.\
 `train_label_path`:Path of training label file.\
 `test_input_path`:Path of testing input file.\
